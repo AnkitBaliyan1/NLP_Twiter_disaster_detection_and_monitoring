@@ -15,10 +15,10 @@ Extensive data cleaning and pre-processing was performed including stop words re
 Before finalising the model, multiple models were tested. 
 
 Models tested: 
-  1. Logistic Regression
-  2. Decision Tree Classifier
-  3. Random Forest Classifier
-  4. Support Vector Machine from Naivee Bayes
+  1. Logistic Regression,
+  2. Decision Tree Classifier,
+  3. Random Forest Classifier,
+  4. Support Vector Machine from Naivee Bayes,
   5. MultinomialBL
 
 Not only multiple models were tested, but multiple freature extraction and feature reduction techniques were also considere. 
@@ -28,7 +28,7 @@ Feature extraction techniques:
   2. TfidfVectorizer
 
 Feature Reduction techniques:
-  1.PCA or Principal component analysis,
+  1. PCA or Principal component analysis,
   2. SVD or Singular Value Decomposition
 
 The final model (Logistic Regression) able to achieve the f-score of over 0.79 with TF-IDF feature extraction technique. 
