@@ -10,6 +10,8 @@ The data consist of several column, including
 
 Model was build and trained on the dataset provided with over 7500 observations. This was than tested on over 2500 observations. 
 
+Extensive data cleaning and pre-processing was performed including stop words removal, special character and numbers removal, lemmatization and stemming, etc. before model building and training. 
+
 Before finalising the model, multiple models were tested. 
 
 Models tested: 
@@ -19,4 +21,14 @@ Models tested:
   4. Support Vector Machine from Naivee Bayes
   5. MultinomialBL
 
-The final model (Logistic Regression) able to achieve the f-score of over 0.79.
+Not only multiple models were tested, but multiple freature extraction and feature reduction techniques were also considere. 
+
+Feature extraction techniques:
+  1. CountVectorizer,
+  2. TfidfVectorizer
+
+Feature Reduction techniques:
+  1.PCA or Principal component analysis,
+  2. SVD or Singular Value Decomposition
+
+The final model (Logistic Regression) able to achieve the f-score of over 0.79 with TF-IDF feature extraction technique. 
