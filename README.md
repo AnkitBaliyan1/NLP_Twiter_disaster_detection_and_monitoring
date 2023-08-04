@@ -1,4 +1,4 @@
-# Twiter_disaster_detection_and_monitoring
+# Twiter_disaster_detection_and_monitoring_using_NLP
 
 The project was part of the kaggle competition assignment to predict the disaster or no disaster based on text language processing. 
 
@@ -10,6 +10,7 @@ The data consist of several column, including
 
 
   <img width="544" alt="Screenshot 2023-06-14 at 12 04 10 PM" src="https://github.com/AnkitBaliyan1/NLP_Twiter_disaster_detection_and_monitoring/assets/86275544/a311bedc-38e9-4b92-a7d1-cc6ec35b5c82">
+
 
 
 Model was build and trained on the dataset provided with over 7500 observations. This was than tested on over 2500 observations. 
@@ -27,15 +28,15 @@ Models tested:
 
 Not only multiple models were tested, but multiple freature extraction and feature reduction techniques were also considere. 
 
-Feature extraction techniques:
+Feature extraction techniques employed:
   1. CountVectorizer,
   2. TfidfVectorizer
 
-Feature Reduction techniques:
+Feature Reduction techniques employed:
   1. PCA or Principal component analysis,
   2. SVD or Singular Value Decomposition
 
-The final model (Logistic Regression) able to achieve the f-score of over o.81 over validation dataset and over 0.79 over unknown dataset. 
+With final model (Logistic Regression) we were able to achieve the f-score of over 0.81 over validation dataset and over 0.79 over unknown dataset. 
 
 
 
